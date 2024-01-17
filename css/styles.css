@@ -1,0 +1,19 @@
+body {
+    background: #F6F6FA;
+    padding: 40px 40px 40px 40px;
+    font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main-content {
+    padding: 88px 80px 40px 80px;
+    box-sizing: border-box;
+}
+
+/* li {
+    background-color: yellow;
+    font-size: 30;
+} */
