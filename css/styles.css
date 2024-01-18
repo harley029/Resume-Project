@@ -1,35 +1,105 @@
 body {
-    background: #F6F6FA;
-    padding: 40px 40px 40px 40px;
-    font-family: "Montserrat", sans-serif;
+  background: #f6f6fa;
+  padding: 40px 40px 40px 40px;
+  font-family: "Montserrat", sans-serif;
 }
 .wrapper {
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: row-reverse;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .main-content {
-    padding: 88px 80px 40px 80px;
-    box-sizing: border-box;
+  padding: 88px 80px 40px 80px;
+  box-sizing: border-box;
 }
 
-/* секция контактов */
-.contacts .contacts-detales {
-    color:#2E2F42;
-    text-decoration: none;}
-.contacts .contacts-detales:active {color:#404BBF;}   
-.contacts .contacts-detales:hover, .contacts .contacts-detales:focus {
-    color: #404BBF;
-    text-decoration: underline;
+.sidebar {
+  background: #e0ebfe;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 370px;
 }
+.sidebar-content {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+/* секция контактов */
+.contacts-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8 px;
+}
+.contacts-type {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+}
+.contacts-item {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.contacts-container {
+  margin-bottom: 40px;
+}
+
+.contacts-container .contacts-detales {
+  color: #2e2f42;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+.contacts-container .contacts-detales:active {
+  color: blue;
+}
+.contacts-container .contacts-detales:hover,
+.contacts-container .contacts-detales:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+/* секція skills */
+.skills-container {
+  margin-bottom: 40px;
+}
+.skills-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.skills-list {
+    padding-left: 16px;
+    color: #161D2A;
+}
+
+.skills-list-item {
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
 
 /* секция проектов */
 .projects .projects-links {
-    color:#2E2F42;
-    text-decoration: none;
+  color: #2e2f42;
+  text-decoration: none;
 }
-.projects .projects-links:active {color:#404BBF;}
-.projects .projects-links:hover, .projects .projects-links:focus {
-    color: #404BBF;
-    text-decoration: underline;
+.projects .projects-links:active {
+  color: blue;
+}
+.projects .projects-links:hover,
+.projects .projects-links:focus {
+  color: #404bbf;
+  text-decoration: underline;
 }
