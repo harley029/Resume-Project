@@ -1,127 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My resume</title>
     <!-- підключення шрифту -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <!-- Wrapper -->
     <div class="wrapper">
-        <!-- Main content -->
-        <div class="main-content">
-            <!-- My info -->
-            <div>
-                <h2>IT System Administrator</h2>
-                <h1>Oleksandr Kharchenko</h1>
-                <p>A conscientious and professional engineer with extensive experience in personal computers utilizing (building, administration, maintenance, etc), INFO and Cyber Security as well as strategic planning, currently seeking a new position as an IT System Administrator</p>
-            </div>
-            <!-- My progects -->
-            <div>
-                <h3>Projects</h3>
-                <ol>
-                    <li>
-                        <a href="https://hellen.p.goit.global/" target="_blank">https://hellen.p.goit.global/</a>
-                        .....................
-                        [ HTML5, CSS3 ]
-                    </li>
-                    <li>
-                        <a href="https://cryptohub.p.goit.global/" target="_blank">https://cryptohub.p.goit.global/</a>
-                        ...........
-                        [ Jawa Script ]
-                    </li>
-                    <li>
-                        <a href="https://kidslike.p.goit.global/" target="_blank">https://kidslike.p.goit.global/</a>
-                        ..................
-                        [ React.js, Node.js]
-                    </li>
-                </ol>
-            </div>
-            <!-- Work Experience -->
-            <div>
-                <h3>Work Experience</h3>
-                <!-- Company 1 -->
-                <div>
-                    <h4>Front-End Developer freelance</h4>
-                    <p>September 2004 up to now  |  Country</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Risus commodo viverra maecenas.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
-                    </ul>
-                </div>
-                <!-- Company 2 -->
-                <div>
-                    <h4>Manager Banderogusak & Co.</h4>
-                    <p>March 2015 - October 2018   |   Country</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
-                        <li>Quis ipsum suspendisse ultrices gravida.</li>
-                        <li>Risus commodo viverra maecenas.</li>
-                    </ul>
-                </div>
-                 <!-- Company 3 -->
-                 <div>
-                    <h4>Manager BestUA Corp.</h4>
-                    <p>June 2014 - February 2015   |   Country</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Quis ipsum suspendisse ultrices gravida.</li>
-                        <li>Risus commodo viverra maecenas.</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Educaation -->
-            <div>
-                <h3>Education</h3>
-                <!-- University 1 -->
-                <div>
-                    <h4>National University of Management</h4>
-                    <p>Management</p>
-                    <p>September 2009 - June 2014   |   Country</p>
-                </div>
-            </div>
+      <!-- Main content -->
+      <div class="main-content">
+        <!-- My info -->
+        <div>
+          <h2>IT System Administrator</h2>
+          <h1>Oleksandr Kharchenko</h1>
+          <p>
+            A conscientious and professional engineer with extensive experience
+            in personal computers utilizing (building, administration,
+            maintenance, etc), INFO and Cyber Security as well as strategic
+            planning, currently seeking a new position as an IT System
+            Administrator
+          </p>
         </div>
-        <!-- Sidebar -->
-        <aside>
-            <img src="./images/Frame 1.jpg" alt="Oleksandr Kharchenko" width="370" height="370">
-            <!-- Contacts -->
-            <div>
-                <h3>Contacts</h3>
-                <p>C: <a href="tel:+388888888888">+38 888 888 88 88</a></p>
-                <p>E: <a href="mailto:t.goitinskiy@gmail.com">t.goitinskiy@gmail.com</a></p>
-            </div>
-            <!-- Tech Skills -->
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>GIT</li>
-                    <li>WebPack</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                </ul>
-            </div>
-            <!-- Soft Skills -->
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Scrum</li>
-                    <li>Agile</li>
-                    <li>GTD</li>
-                    <li>Teamwork</li>
-                </ul>
-            </div>
-        </aside>
+        <!-- My progects -->
+        <div>
+          <h3>Projects</h3>
+          <ol class="projects">
+            <li>
+              <a
+                class="projects-links"
+                href="https://hellen.p.goit.global/"
+                target="_blank"
+                >https://hellen.p.goit.global/</a
+              >
+              ..................... [ HTML5, CSS3 ]
+            </li>
+            <li>
+              <a
+                class="projects-links"
+                href="https://cryptohub.p.goit.global/"
+                target="_blank"
+                >https://cryptohub.p.goit.global/</a
+              >
+              ........... [ Jawa Script ]
+            </li>
+            <li>
+              <a
+                class="projects-links"
+                href="https://kidslike.p.goit.global/"
+                target="_blank"
+                >https://kidslike.p.goit.global/</a
+              >
+              .................. [ React.js, Node.js]
+            </li>
+          </ol>
+        </div>
+        <!-- Work Experience -->
+        <div>
+          <h3>Work Experience</h3>
+          <!-- Company 1 -->
+          <div>
+            <h4>Front-End Developer freelance</h4>
+            <p>September 2004 up to now | Country</p>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Risus commodo viverra maecenas.</li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod.
+              </li>
+            </ul>
+          </div>
+          <!-- Company 2 -->
+          <div>
+            <h4>Manager Banderogusak & Co.</h4>
+            <p>March 2015 - October 2018 | Country</p>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod labore et dolore magna aliqua.
+              </li>
+              <li>Quis ipsum suspendisse ultrices gravida.</li>
+              <li>Risus commodo viverra maecenas.</li>
+            </ul>
+          </div>
+          <!-- Company 3 -->
+          <div>
+            <h4>Manager BestUA Corp.</h4>
+            <p>June 2014 - February 2015 | Country</p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Quis ipsum suspendisse ultrices gravida.</li>
+              <li>Risus commodo viverra maecenas.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Educaation -->
+        <div>
+          <h3>Education</h3>
+          <!-- University 1 -->
+          <div>
+            <h4>National University of Management</h4>
+            <p>Management</p>
+            <p>September 2009 - June 2014 | Country</p>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      <aside>
+        <img
+          src="./images/Frame 1.jpg"
+          alt="Oleksandr Kharchenko"
+          width="370"
+          height="370"
+        />
+        <!-- Contacts -->
+        <div class="contacts">
+          <h3>Contacts</h3>
+          <p>
+            C:
+            <a class="contacts-detales" href="tel:+380507331167"
+              >+38 050 733 11 67</a
+            >
+          </p>
+          <p>
+            E:
+            <a class="contacts-detales" href="mailto:t.harley029@gmail.com"
+              >harley029@gmail.com</a
+            >
+          </p>
+        </div>
+        <!-- Tech Skills -->
+        <div>
+          <h3>Tech Skills</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>GIT</li>
+            <li>WebPack</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+        <!-- Soft Skills -->
+        <div>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Scrum</li>
+            <li>Agile</li>
+            <li>GTD</li>
+            <li>Teamwork</li>
+          </ul>
+        </div>
+      </aside>
     </div>
-</body>
+  </body>
 </html>

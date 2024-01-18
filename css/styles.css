@@ -13,7 +13,20 @@ body {
     box-sizing: border-box;
 }
 
-/* li {
-    background-color: yellow;
-    font-size: 30;
-} */
+/* секция контактов */
+.contacts .contacts-detales {
+    color:#3f51b5;
+    text-decoration: none;}
+.contacts .contacts-detales:hover, .contacts .contacts-detales:focus {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* секция проектов */
+.projects .projects-links {
+    color:#3f51b5;
+    text-decoration: none;}
+.projects .projects-links:hover, .projects .projects-links:focus {
+    color: blue;
+    text-decoration: underline;
+}
