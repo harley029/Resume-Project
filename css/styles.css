@@ -46,11 +46,9 @@ body {
   margin-top: 0;
   margin-bottom: 8px;
 }
-
 .contacts-container {
   margin-bottom: 40px;
 }
-
 .contacts-container .contacts-detales {
   color: #2e2f42;
   font-size: 14px;
@@ -79,16 +77,15 @@ body {
   margin-bottom: 8px;
 }
 .skills-list {
-    padding-left: 16px;
-    color: #161D2A;
+  padding-left: 16px;
+  color: #161d2a;
 }
 
 .skills-list-item {
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
-
 
 /* секция проектов */
 .projects .projects-links {
@@ -102,4 +99,44 @@ line-height: 24px;
 .projects .projects-links:focus {
   color: #404bbf;
   text-decoration: underline;
+}
+
+/* секция Образованик */
+.education-container {
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.education-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.university {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.spetiality {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+  /* padding-left: 12px; */
+}
+.study-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 12px;
+  /* padding-left: 12px; */
 }
