@@ -3,10 +3,17 @@ body {
   padding: 40px 40px 40px 40px;
   font-family: "Montserrat", sans-serif;
 }
+.ul,
+.ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .wrapper {
   background: #ffffff;
   display: flex;
   flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0, auto;
 }
 .main-content {
   padding: 88px 80px 40px 80px;
@@ -89,6 +96,8 @@ body {
 /* секция My info */
 .my-info-container {
   margin-top: 0px;
+  /* added */
+  margin-bottom: 40px;
 }
 .role-title {
   color: #000;
@@ -114,18 +123,27 @@ body {
   margin-bottom: 0;
 }
 /* секция проектов */
-.projects-content {
-  margin-top: 40px;
-  margin-bottom: 0;
+.project-container {
+  margin-bottom: 40px;
 }
 .projects-title {
   color: #000;
   font-size: 22px;
   font-weight: 700;
   line-height: 27px;
-  margin-top: 8px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
+.projects {
+  padding-left: 16px;
+}
+.projetcs-list {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
 .projects .projects-links {
   color: #2e2f42;
   font-size: 14px;
@@ -149,7 +167,6 @@ body {
 }
 /* секция experience */
 .experience-container {
-  margin-top: 40px;
   margin-bottom: 0;
 }
 .experience-title {
@@ -160,7 +177,6 @@ body {
   margin-bottom: 8px;
 }
 .company-container {
-  margin-top: 0;
   margin-bottom: 12px;
 }
 .company-role-title {
@@ -169,27 +185,32 @@ body {
   font-weight: 700;
   line-height: 20px;
   margin-top: 0;
+  margin-bottom: 12px;
+}
+.company-title {
+  color: #6d9bf5;
 }
 .company-working-time {
   color: #a8a8a8;
   font-size: 12px;
   font-weight: 400;
   line-height: 15px;
-  margin-top: 0;
   margin-bottom: 8px;
 }
-.role-skills {
+.working-time-slash {
+  color: #000;
+}
+
+.role-skills-item {
   color: #595959;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
-.company-title {
-  color: #6d9bf5;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: ;
+.role-skills {
+  padding-left: 16px;
 }
+
 /* секция Образованик */
 .education-container {
   margin-top: 40px;
